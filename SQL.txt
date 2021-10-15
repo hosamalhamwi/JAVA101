@@ -1,0 +1,18 @@
+SQL :
+
+=> to make two columns concatenate (means join the two columns)
+SELECT FIRST_NAME || LAST_NAME FROM system.employees
+
+
+=> to change the name of the column
+SELECT FIRST_NAME as NAME FROM system.employees
+
+
+=> to add the message between two columns output
+SELECT FIRST_NAME ||' is son of '|| LAST_NAME FROM system.employees
+
+=> to perform airthmatic operations
+SELECT SALARY+100 FROM system.employees
+
+=> to prevent the duplication of data
+SELECT distinct MANAGER_ID FROM system.employees
