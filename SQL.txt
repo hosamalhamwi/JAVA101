@@ -26,5 +26,8 @@ WHERE salary between 2500 and 3000
 => conditions where manager id is this , this or this
 WHERE manager_id in (100 , 101, 200)
 
+=> every name that includes o in last name
+WHERE last_name like '_o%'
+
 
 
