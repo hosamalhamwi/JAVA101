@@ -16,3 +16,15 @@ SELECT SALARY+100 FROM system.employees
 
 => to prevent the duplication of data
 SELECT distinct MANAGER_ID FROM system.employees
+
+=> Select a particular thing from database
+SELECT last_name , job_id , department_id , salary FROM system.employees WHERE salary <= 3000
+
+=> if its in between
+WHERE salary between 2500 and 3000
+
+=> conditions where manager id is this , this or this
+WHERE manager_id in (100 , 101, 200)
+
+
+
