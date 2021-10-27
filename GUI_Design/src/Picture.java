@@ -40,6 +40,7 @@ public class Picture extends JFrame implements ActionListener {
         for(JButton eachbtn : btnArray){
 
             eachbtn.setPreferredSize(new Dimension(100,100));
+            eachbtn.addActionListener(this);
         }
 
 //        if(kali1.exists())
