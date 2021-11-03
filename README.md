@@ -1,4 +1,4 @@
-## Java (OOP) 
+## Java (OOP) || CIU 2021-22 Fall semester
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
@@ -8,4 +8,3 @@
 </p>
 
 
-## CIU 2021-22 Fall semester
