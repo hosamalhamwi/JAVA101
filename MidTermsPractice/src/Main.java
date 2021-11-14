@@ -80,7 +80,8 @@ public class Main {
         Menu menu = new Menu();
         menu.setVisible(true);
 
-
+        Layout layout = new Layout("Login");
+        layout.setVisible(true);
 
 
 
