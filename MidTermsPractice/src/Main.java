@@ -84,7 +84,8 @@ public class Main {
         layout.setVisible(true);
 
 
-
+        Calculator cal = new Calculator();
+        cal.setVisible(true);
 
 
 
